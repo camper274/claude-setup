@@ -6,14 +6,14 @@ Claude Code için kişisel yetenek seti, global `CLAUDE.md` kullanım kuralları
 
 **Windows**
 ```powershell
-gh repo clone camper274/claude-setup $HOME\claude-setup
+git clone https://github.com/camper274/claude-setup $HOME\claude-setup
 cd $HOME\claude-setup
 powershell -ExecutionPolicy Bypass -File install.ps1
 ```
 
 **macOS / Linux**
 ```bash
-gh repo clone camper274/claude-setup ~/claude-setup
+git clone https://github.com/camper274/claude-setup ~/claude-setup
 cd ~/claude-setup && ./install.sh
 ```
 
